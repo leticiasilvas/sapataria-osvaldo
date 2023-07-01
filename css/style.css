@@ -1,40 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .page-title {
-    color: #A64b2A;
+    color: #8b5d4c;
     margin: 40px auto 10px;
     padding-left: 10px;
     width: 80%;
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
-   
 }
 
 
 h2 {
     color: #8E3200;
     margin: 40px auto 10px;
-    padding-left: 10px;
     width: 80%;
     font-size: 14px;
     font-size: 25px;
-    text-align: center;
-
-    
 }
+   
+
+.article {
+    width: 80%;
+    margin: auto 0;
+}
+
+
+p {
+    margin-top: 20px;
+    }
+    
 
 main {
     width: 80%;
     margin: 40px auto 5px;
-    font-size: 23px;
-    text-align: center;
-
-
+    font-size: 22px;
 }
 
-.article {
-    color: rgb(150, 127, 255);
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
 
+.article {
+    color: rgb(128, 85, 21);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.titulo-produto {
+    /*SHORTHAND MARGENS*/
+    margin: 40px 0 10px;
+    font-size: 22pt;
+    color: black;
+    background-color: #8b6759;
+    padding: 1%;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: inset ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.imagem-produto {
+    width: 20%;
+}
+
+footer {
+    background-color: #a08074;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
