@@ -4,7 +4,7 @@
 
 .page-title {
     color: #8b5d4c;
-    margin: 40px auto 10px;
+    margin: 40px auto 5px;
     padding-left: 10px;
     width: 80%;
     font-size: 50px;
@@ -14,7 +14,7 @@
 
 h2 {
     color: #8E3200;
-    margin: 40px auto 10px;
+    margin: 40px auto 5px;
     width: 80%;
     font-size: 14px;
     font-size: 25px;
@@ -77,4 +77,28 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.bolsas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cintos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-estilo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px ;
+
+
 }
